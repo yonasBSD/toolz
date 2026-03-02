@@ -15,15 +15,11 @@
 	<!-- Analytics -->
     <script defer src="https://umami.priorato.org/priorato.js" data-website-id="4eaed2d0-1d01-44b6-9381-d1f4a80a99fc"></script>
 	<link rel="icon" href="./assets/<%=page%>/icon.svg" type="image/svg+xml">
-	<% if (page == 'toolz') { %>
-		<link rel="canonical" href="https://adblock.turtlecute.org/">
-	<% } else { %>
-		<link rel="canonical" href="https://adblock.turtlecute.org/<%=page%>">
-	<% } %>
+	<link rel="canonical" href="https://adblock.turtlecute.org/">
     <title><%= title %></title>
-  	<meta name="author" content="Ursu Eduard Cornelius">
+  	<meta name="author" content="Turtlecute">
 	<meta name="description" content="<%= description %>">
-	<meta name="keywords" content="<%= keywords %>,Eduard Ursu,d3ward,github">
+	<meta name="keywords" content="<%= keywords %>,turtlecute,github">
 
 	<!-- Google / Search Engine Tags -->
 	<meta itemprop="name" content="<%= title %>">
@@ -65,22 +61,23 @@
 		},
 		"author": {
 			"@type": "Person",
-			"name": "Ursu Eduard Cornelius",
-			"url": "https://github.com/d3ward"
+			"name": "Turtlecute",
+			"url": "https://github.com/Turtlecute33"
+		},
+		"maintainer": {
+			"@type": "Person",
+			"name": "Turtlecute",
+			"url": "https://github.com/Turtlecute33"
 		},
 		"publisher": {
 			"@type": "Person",
-			"name": "Ursu Eduard Cornelius"
+			"name": "Turtlecute",
+			"url": "https://turtlecute.org"
 		},
 		"image": "<%= preview_thumbnail %>",
 		"screenshot": "<%= preview_thumbnail %>",
 		"browserRequirements": "Requires JavaScript. Requires HTML5.",
-		"softwareVersion": "3.1.2",
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"ratingValue": "4.5",
-			"ratingCount": "100"
-		}
+		"softwareVersion": "3.1.2"
 	}
 	</script>
 
